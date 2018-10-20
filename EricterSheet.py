@@ -1,7 +1,7 @@
 class testCharSheet:
 	def __init__(self):
 		pass
-	arrows=25
+	arrows=24
 	def shoot(self):
 		testCharSheet.arrows=testCharSheet.arrows-1
 class parseInput:
