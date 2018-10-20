@@ -29,7 +29,7 @@ class mapData:
 	def getUnitName(self):
 		return self.unitName
 	def getUnitConverter(self):
-		return float(self.unitConverter)
+		return int(self.unitConverter)
 	def getPixelsX(self):
 		return int(self.pixelsX)
 	def getPixelsY(self):
