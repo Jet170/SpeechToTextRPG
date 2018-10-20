@@ -62,6 +62,45 @@ class characterData:
 				amount = int(data)
 			except:
 				amount = amount
+		if(amount = 0):
+			if(data=="one")
+				amount=1
+			if(data=="two")
+				amount=2
+			if(data=="three")
+				amount=3
+			if(data=="four")
+				amount=4
+			if(data=="five")
+				amount=5
+			if(data=="six")
+				amount=6
+			if(data=="seven")
+				amount=7
+			if(data=="eight")
+				amount=8
+			if(data=="nine")
+				amount=9
+			if(data=="ten")
+				amount=10
+			if(data=="eleven")
+				amount=11
+			if(data=="twelve")
+				amount=12
+			if(data=="thirteen")
+				amount=13
+			if(data=="fourteen")
+				amount=14
+			if(data=="fifteen")
+				amount=15
+			if(data=="sixteen")
+				amount=16
+			if(data=="seventeen")
+				amount=17
+			if(data=="eighteen")
+				amount=18
+			if(data=="nineteen")
+				amount=19
 		for row in self.fileData:
 			if row[0] in text:
 				name = row[0]

@@ -52,4 +52,8 @@ class gameStats:
 		for row in fileData:
 			if(row[0]==name):
 				return int(row[4])
-	
+	def getAllNames():#Gets all the names
+		toReturn = []
+		for row in fileData:
+			toReturn.append(row[0])
+		return toReturn
