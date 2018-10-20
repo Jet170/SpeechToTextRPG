@@ -1,7 +1,6 @@
 import csv
 import os
 from shutil import copyfile
-#Its reading correctly but its not writing at all!!!
 
 class gameStats:
 	file = open('config.csv') #Chooses which file to use
