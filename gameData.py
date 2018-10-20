@@ -46,3 +46,10 @@ class gameStats:
 		configWrite.writerows(self.fileData)
 		file2.close()
 		copyfile("tempConfig.csv", "config.csv")
+	def addVar(self, itemName, addCmd, rmCmd, resetCmd, startingQuantity): #Add a var to the file
+		self.fileData.append([itemName, addCmd, rmCmd, resetCmd, startingQuantity])
+	def getQuantity(name): #Gets the quantity of some variable
+		for row in fileData:
+			if(row[0]==name):
+				return int(row[4])
+	
