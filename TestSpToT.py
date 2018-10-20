@@ -15,7 +15,7 @@ CHUNK = int(RATE / 10)  # 100ms
 
 
 class MicrophoneStream(object):
-    """Opens a recording stream as a generator yielding the audio chunks."""
+    """Opens a recording stream as a generator yielding the audio chunks.""" #Test note with Evan
     def __init__(self, rate, chunk):
         self._rate = rate
         self._chunk = chunk
